@@ -29,8 +29,9 @@ const calculatePayroll = () => {
   }
   
   // SHA deduction (simplified)
-  const sha = grossPay*0.0275;
-
+  // Ensures a minimum SHA of 300 
+  const sha = Math.max(grossPay * 0.0275, 300); 
+  
   
   // NSSF (simplified - 6% of Basic Salary)
   const nssf = grossPay * 0.06;
