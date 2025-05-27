@@ -25,7 +25,7 @@ const employee = ref<Employee>({
   lastName: '',
   email: '',
   position: '',
-  salary: '0',
+  salary: 0,
   employeeNumber:'',
   
   startDate: new Date().toISOString().split('T')[0],
@@ -65,7 +65,7 @@ const submitForm = () => {
     lastName: '',
     email: '',
     position: '',
-    salary: '0',
+    salary: 0,
     startDate: new Date().toISOString().split('T')[0],
     imageUrl: ''
   };
