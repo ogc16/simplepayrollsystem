@@ -7,8 +7,7 @@ A lightweight and efficient payroll management system built with **Vue 3** and *
 - ✅ Add, edit, and delete employee records
 - ✅ Calculate monthly salaries with allowances and deductions
 - ✅ Generate and view payslips
-- ✅ Role-based access control (Admin & Employee)
-- ✅ Clean and responsive user interface
+- ✅ Clean,simple and responsive user interface
 
 ## 🧱 Tech Stack
 
