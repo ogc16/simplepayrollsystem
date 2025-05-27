@@ -16,7 +16,7 @@ export interface Employee {
 export interface PayrollCalculation {
   grossPay: number;
   tax: number;
-  nhif: number;
+  sha: number;
   nssf: number;
   netPay: number;
   customDeductions: CustomDeduction[];
