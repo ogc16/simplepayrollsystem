@@ -19,19 +19,3 @@ A lightweight and efficient payroll management system built with **Vue 3** and *
 - **Backend:** Connect to API (Flask, Node, etc.)
 - **Pdf generation:**Jspdf
 
-## 🖥️ Project Structure
-
-```bash
-simple-payroll-system/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── store/
-│   ├── router/
-│   ├── App.vue
-│   └── main.js
-├── index.html
-├── package.json
-└── vite.config.js
