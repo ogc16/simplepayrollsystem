@@ -18,7 +18,7 @@ const employee = ref<Employee>({
   id: crypto.randomUUID(),
   idNumber: '',
   kraPin: '',
-  employeeNumber:'',
+  //employeeNumber:'',
   shaNumber:'',
   gender: 'male',
   firstName: '',
@@ -26,7 +26,7 @@ const employee = ref<Employee>({
   email: '',
   position: '',
   salary: 0,
-  employeeNumber:'',
+  //employeeNumber:'',
   
   startDate: new Date().toISOString().split('T')[0],
   imageUrl: ''
