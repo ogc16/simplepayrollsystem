@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref /*, computed*/ } from 'vue';
+import { ref } from 'vue';
 import type { Employee, PayrollCalculation, CustomDeduction } from '../types/employee';
 import { format } from 'date-fns';
 import { jsPDF } from 'jspdf';
 
-const props = defineProps<{
+defineProps<{
   employees: Employee[]
 }>();
 

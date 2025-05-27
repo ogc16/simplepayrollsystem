@@ -18,18 +18,18 @@ const employee = ref<Employee>({
   id: crypto.randomUUID(),
   idNumber: '',
   kraPin: '',
-  //employeeNumber:'',
-  shaNumber:'',
   gender: 'male',
   firstName: '',
   lastName: '',
   email: '',
   position: '',
   salary: 0,
-  //employeeNumber:'',
-  
   startDate: new Date().toISOString().split('T')[0],
-  imageUrl: ''
+  imageUrl: '',
+  //employeeType: '',
+  department: '',
+  employeenumber: '',
+  phoneNumber: ''
 });
 
 const imageFile = ref<File | null>(null);
@@ -67,7 +67,11 @@ const submitForm = () => {
     position: '',
     salary: 0,
     startDate: new Date().toISOString().split('T')[0],
-    imageUrl: ''
+    imageUrl: '',
+    //employeeType: '',
+    department: '',
+    employeenumber: '',
+    phoneNumber: ''
   };
   imageFile.value = null;
 };
