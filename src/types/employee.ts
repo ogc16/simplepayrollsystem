@@ -11,6 +11,10 @@ export interface Employee {
   startDate: string;
   imageUrl: string;
   profileImage?: File;
+  employeeType: 'full-time' | 'part-time' | 'contract';
+  department: string;
+  employeenumber: string;
+  phoneNumber: string;
 }
 
 export interface PayrollCalculation {
