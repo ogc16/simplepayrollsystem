@@ -160,7 +160,7 @@ const submitForm = () => {
       </div>
 
       <div>
-        <label class="block text-sm font-medium text-gray-700">Position</label>
+        <label class="block text-sm font-medium text-gray-700">Job Title</label>
         <select
           v-model="employee.position"
           required
