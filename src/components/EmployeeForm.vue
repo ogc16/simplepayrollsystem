@@ -28,7 +28,7 @@ const employee = ref<Employee>({
   imageUrl: '',
   department: '',
   employeenumber: '', // Add this property
-  phoneNumber: '' // Ensure this property is included
+  phoneNumber: '', // Ensure this property is included
 });
 
 const imageFile = ref<File | null>(null);
