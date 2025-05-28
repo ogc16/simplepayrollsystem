@@ -28,7 +28,7 @@ const employee = ref<Employee>({
   imageUrl: '',
   //employeeType: '',
   department: '',
-  employeenumber: '',
+  //employeenumber: '',
   phoneNumber: ''
 });
 

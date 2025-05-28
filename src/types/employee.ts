@@ -11,10 +11,9 @@ export interface Employee {
   startDate: string;
   imageUrl: string;
   profileImage?: File;
-  //employeeType: 'full-time' | 'part-time' | 'contract';
   department: string;
- // employeenumber: string;
-  //phoneNumber: string;
+  employeenumber: string; // Uncommented this property
+  phoneNumber: string; // Uncommented this property
 }
 
 export interface PayrollCalculation {
