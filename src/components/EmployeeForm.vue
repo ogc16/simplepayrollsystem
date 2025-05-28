@@ -26,10 +26,9 @@ const employee = ref<Employee>({
   salary: 0,
   startDate: new Date().toISOString().split('T')[0],
   imageUrl: '',
-  //employeeType: '',
   department: '',
-  //employeenumber: '',
-  phoneNumber: ''
+  employeenumber: '', // Add this property
+  phoneNumber: '' // Ensure this property is included
 });
 
 const imageFile = ref<File | null>(null);
@@ -68,10 +67,9 @@ const submitForm = () => {
     salary: 0,
     startDate: new Date().toISOString().split('T')[0],
     imageUrl: '',
-    //employeeType: '',
     department: '',
     employeenumber: '',
-    phoneNumber: ''
+    phoneNumber: '',
   };
   imageFile.value = null;
 };
