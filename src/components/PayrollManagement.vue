@@ -34,7 +34,7 @@ const calculatePayroll = () => {
   
   
   // NSSF (simplified - 6% of Basic Salary)
-  const nssf = grossPay * 0.06;
+  const nssf = grossPay > 36000 ? 36000 * 0.06 : grossPay * 0.06; // NSSF capped at 6% of 36,000 for salaries above 36,000
   
   // Calculate total custom deductions
   const totalCustomDeductions = customDeductions.value.reduce((total, deduction) => total + deduction.amount, 0);
