@@ -81,7 +81,7 @@ const downloadPayslip = () => {
   // Create PDF document (57mm = 2.244094488189in)
   const doc = new jsPDF({
     unit: 'in',
-    format: [2.244094488189, 4.69] // 57mm width, A4 height
+    format: [2.3, 4.7] // 57mm width, A4 height
   });
 
   const pageWidth = 2.244094488189;
@@ -114,12 +114,12 @@ const downloadPayslip = () => {
   };
 
   // Add watermark
-  doc.setFontSize(15);
+  doc.setFontSize(30);
   doc.setTextColor(224, 211, 230);
-  doc.setFont('Times', 'bold');
+  doc.setFont('helvetica', 'bold');
   doc.text(' Company Name', pageWidth / 2, 3, {
     align: 'center',
-    angle: 35
+    angle: 90,//change the angle to >90 degrees to make it visible
   });
   doc.setTextColor(20, 2, 28);
   doc.setFont('Courier', 'normal');
